@@ -103,7 +103,7 @@
                     android:contentDescription="@string/alt_bottom_sheet_threshold_button_minus"
                     android:src="@drawable/ic_minus"
                     android:tint="@android:color/white"
-                    android:background="#FFA300" />
+                    android:background="#227DDE" />
 
                 <TextView
                     android:id="@+id/detection_threshold_value"
@@ -123,7 +123,7 @@
                     android:contentDescription="@string/alt_bottom_sheet_threshold_button_plus"
                     android:src="@drawable/ic_plus"
                     android:tint="@android:color/white"
-                    android:background="#FFA300"/>
+                    android:background="#227DDE"/>
             </LinearLayout>
         </RelativeLayout>
 
@@ -156,7 +156,7 @@
                     android:contentDescription="@string/alt_bottom_sheet_threshold_button_minus"
                     android:src="@drawable/ic_minus"
                     android:tint="@android:color/white"
-                    android:background="#FFA300" />
+                    android:background="#227DDE" />
 
                 <TextView
                     android:id="@+id/tracking_threshold_value"
@@ -176,7 +176,7 @@
                     android:contentDescription="@string/alt_bottom_sheet_threshold_button_plus"
                     android:src="@drawable/ic_plus"
                     android:tint="@android:color/white"
-                    android:background="#FFA300"/>
+                    android:background="#227DDE"/>
             </LinearLayout>
         </RelativeLayout>
 
@@ -209,7 +209,7 @@
                     android:contentDescription="@string/alt_bottom_sheet_threshold_button_minus"
                     android:src="@drawable/ic_minus"
                     android:tint="@android:color/white"
-                    android:background="#FFA300"/>
+                    android:background="#227DDE"/>
 
                 <TextView
                     android:id="@+id/presence_threshold_value"
@@ -229,7 +229,7 @@
                     android:contentDescription="@string/alt_bottom_sheet_threshold_button_plus"
                     android:src="@drawable/ic_plus"
                     android:tint="@android:color/white"
-                    android:background="#FFA300"/>
+                    android:background="#227DDE"/>
             </LinearLayout>
         </RelativeLayout>
 

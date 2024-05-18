@@ -28,4 +28,38 @@
         <item name="android:statusBarColor">?attr/colorPrimary</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Set the status bar color to blue -->
+        <item name="android:statusBarColor">@color/blue</item>
+        <!-- Hide the app bar title -->
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- MainActivity theme -->
+    <style name="MainMenuActivity" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Set the status bar color to blue -->
+        <item name="android:statusBarColor">@color/blue</item>
+        <!-- Hide the app bar title -->
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- CombineLettersActivity theme -->
+    <style name="FSLGalleryActivityThemes" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:statusBarColor">@color/blue</item>
+        <!-- Other theme attributes -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Set the toolbar as the support action bar -->
+        <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
+    </style>
+
+    <!-- CombineLettersActivity theme -->
+    <style name="FullScreenActivityThemes" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Set the status bar color to blue -->
+        <item name="android:statusBarColor">@color/blue</item>
+        <!-- Hide the app bar title -->
+        <item name="windowNoTitle">true</item>
+    </style>
+
 </resources>

@@ -96,7 +96,7 @@ class GestureRecognizerHelper(
             gestureRecognizer = GestureRecognizer.createFromOptions(context, options)
         } catch (e: IllegalStateException) {
             gestureRecognizerListener?.onError(
-                "Gesture recognizer failed to initialize. See error logs for " + "details"
+                "Gesture recognizer failed to initialize. See error logs for " + "details1"
             )
             Log.e(
                 TAG,
@@ -104,7 +104,7 @@ class GestureRecognizerHelper(
             )
         } catch (e: RuntimeException) {
             gestureRecognizerListener?.onError(
-                "Gesture recognizer failed to initialize. See error logs for " + "details",
+                "Gesture recognizer failed to initialize. See error logs for " + "details2",
                 GPU_ERROR
             )
             Log.e(
@@ -193,7 +193,7 @@ class GestureRecognizerHelper(
 
     companion object {
         val TAG = "GestureRecognizerHelper ${this.hashCode()}"
-        private const val MP_RECOGNIZER_TASK = "pjm_v5.task"
+        private const val MP_RECOGNIZER_TASK = "fsl_dayto.task"
 
         const val DELEGATE_CPU = 0
         const val DELEGATE_GPU = 1
