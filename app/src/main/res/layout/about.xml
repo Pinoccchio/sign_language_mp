@@ -5,6 +5,7 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	android:orientation="vertical">
+dependencies
 	<LinearLayout
 		android:id="@+id/linear1"
 		android:layout_width="match_parent"
@@ -23,40 +24,57 @@
 				android:focusable="false"
 				android:layout_width="match_parent"
 				android:layout_height="match_parent"
-				android:src="@drawable/slt_logo"
+				android:src="@drawable/notice_icon"
 				android:scaleType="centerInside" />
 		</LinearLayout>
+
 		<LinearLayout
 			android:id="@+id/linear4"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:padding="8dp"
 			android:gravity="center_horizontal|center_vertical"
-			android:orientation="vertical">
+			android:orientation="vertical"
+			android:padding="8dp">
+
 			<TextView
 				android:id="@+id/textview5"
-				android:focusable="false"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
+				android:focusable="false"
 				android:paddingLeft="8dp"
 				android:paddingTop="8dp"
 				android:paddingRight="8dp"
 				android:text="Created by:"
-				android:textSize="12sp"
-				android:textColor="#000000" />
+				android:textColor="#000000"
+				android:textSize="12sp" />
+
 			<TextView
-				android:id="@+id/textview4"
-				android:focusable="false"
+				android:id="@+id/notice"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
+				android:focusable="false"
+				android:gravity="center_horizontal|center_vertical"
 				android:paddingLeft="8dp"
 				android:paddingRight="8dp"
 				android:paddingBottom="8dp"
+				android:text="Please note that the feature described here is currently under development and not yet available. We are working diligently to bring this functionality to you in the near future. Thank you for your patience and understanding as we continue to enhance our offerings."
+				android:textColor="#F44336"
+				android:textSize="12sp" />
+
+			<TextView
+				android:id="@+id/textview4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:focusable="false"
 				android:gravity="center_horizontal|center_vertical"
-				android:text="Dayto, Neil Aeron\nVillanueva, Kyle Christen\nOliveros, Ma.Fe"
-				android:textSize="12sp"
-				android:textColor="#F44336" />
+				android:paddingLeft="8dp"
+				android:paddingRight="8dp"
+				android:paddingBottom="8dp"
+				android:text="Amar\nCuna\nGallano\nNadal\nVillanueva"
+				android:textColor="@color/black"
+				android:textSize="12sp" />
 		</LinearLayout>
+
 		<LinearLayout
 			android:id="@+id/linear3"
 			android:layout_width="match_parent"
@@ -71,7 +89,7 @@
 				android:layout_height="wrap_content"
 				android:padding="8dp"
 				android:gravity="center_horizontal|center_vertical"
-				android:text="Filipino Sign Language Translator"
+				android:text="Sign Language Translator"
 				android:textSize="16sp"
 				android:textStyle="bold"
 				android:textColor="#000000" />

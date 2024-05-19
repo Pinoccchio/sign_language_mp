@@ -57,9 +57,8 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         val currentText = textLabel.text.toString()
 
         if (currentText.isNotEmpty()) {
-            val updatedText = currentText.substring(0, currentText.length - 1)
-            textLabel.text = updatedText
-            ContextHolder.currentWord = updatedText
+            textLabel.text = ""
+            ContextHolder.currentWord = ""
         }
     }
 

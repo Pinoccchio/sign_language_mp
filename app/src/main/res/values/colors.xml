@@ -15,7 +15,7 @@
     ~ limitations under the License.
 -->
 <resources>
-    <color name="mp_color_primary">#227DDE</color>
+    <color name="mp_color_primary">#FFC0DB</color>
     <color name="mp_color_primary_variant">#FFFFFF</color>
     <color name="mp_color_primary_dark">#FFA300</color>
     <color name="mp_color_secondary">#FFFFFF</color>
@@ -38,6 +38,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="whiteBlue">#BED2DB</color>
+    <color name="realPink">#FFC0DB</color>
+    <color name="pink">#FDECDF</color>
 
     <!-- colors for button style -->
     <color name="gradient_start_color">#4C84FF</color>

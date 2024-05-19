@@ -58,7 +58,7 @@ project.ext.TEST_ASSETS_DIR = projectDir.toString() + '/src/androidTest/assets'
 
 apply from: 'download_tasks.gradle'
 
-dependencies {
+ dependencies {
 
     // Kotlin lang
     implementation 'androidx.core:core-ktx:1.8.0'
